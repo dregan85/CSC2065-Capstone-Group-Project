@@ -1,3 +1,6 @@
+# 9/24/2024
+# Daniel Bradford
+# Front Range Community College
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
