@@ -31,13 +31,13 @@ def bfs_shortest_path (graph, start):
                  neighbor = str(neighbor)
             # If neighbor hasn't been visisted yet
             if neighbor not in shortest_paths:
-                # Append current node's path to neighbor
+                # Append the current node's path to the neighbor
                 queue.append(neighbor)
                 shortest_paths[neighbor] = shortest_paths[current_node] + [neighbor]
 
     return shortest_paths
 
-# hardcoded since I wasn't given any start node and no inptu by a user was requested
+# hardcoded since I wasn't given any start node and no input by a user was requested
 start_node = '120'
 shortest_paths = bfs_shortest_path(graph, start_node)
 
