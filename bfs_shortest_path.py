@@ -37,7 +37,7 @@ def bfs_shortest_path (graph, start):
 
     return shortest_paths
 
-# hardcoded since I wasn't given any start node and no inptu by a user was requested
+# hardcoded since I wasn't given any start node and no input by a user was requested
 start_node = '120'
 shortest_paths = bfs_shortest_path(graph, start_node)
 
