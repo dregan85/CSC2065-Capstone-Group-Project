@@ -20,6 +20,9 @@ print(f"Number of nodes: {G.number_of_nodes()}")
 print(f"Number of edges: {G.number_of_edges()}")
 print(f"Average degree: {sum(dict(G.degree()).values()) /
 G.number_of_nodes():.2f}")
+#print(nx.adjacency_matrix(G, list(G.nodes())[:10]).todense())
+plt.imshow(nx.adjacency_matrix(G, list(G.nodes())[:10000]).toarray(), cmap='binary')
+plt.show()
 
 # Visualize a small subset of the network
 subgraph = nx.subgraph(G, list(G.nodes())[:100])

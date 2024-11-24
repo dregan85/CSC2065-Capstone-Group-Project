@@ -6,7 +6,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 n_start = 1000
-n_end = 1400
+n_end = 1200
 
 # Load data
 with open('SocialNetworkData_10K.json', 'r') as f: 
