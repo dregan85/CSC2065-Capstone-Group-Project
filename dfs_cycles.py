@@ -4,7 +4,6 @@
 
 import json
 import networkx as nx
-import matplotlib.pyplot as plt
 
 n_start = 700
 n_end = 1200
