@@ -89,7 +89,7 @@ Boolean statements are made up of the following predefined symbols:\n\
 -A \'+\' between symbols represents a logical OR\n\
 -A symbol entered in uppercase form represents a logical NOT\n\n\
 Example: \'iC+a\' would return users who either have one interest\n\
-and do not live in a capital city, or users wo are 21 years or older')
+and do not live in a capital city, or users who are 21 years or older')
     elif(option == 'b'):
         print('Enter boolean statement:')
         statement = input()
